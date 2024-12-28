@@ -54,17 +54,24 @@ public class YumiShowEEValue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (textObject!=null && textObject.text == "Right Arm")
+        if (YumiMotion_ARControlBase.Instance)
         {
-            var t = GameObject.Find("world/yumi_base_link/gripper_r_controller");
-            if (t)
-                target = t.gameObject;
+            target = YumiMotion_ARControlBase.Instance.gameObject;
         }
         else
         {
-            var t = GameObject.Find("world/yumi_base_link/gripper_l_controller");
-            if (t)
-                target = t.gameObject;
+            if (textObject != null && textObject.text == "Right Arm")
+            {
+                var t = GameObject.Find("world/yumi_base_link/gripper_r_controller");
+                if (t)
+                    target = t.gameObject;
+            }
+            else
+            {
+                var t = GameObject.Find("world/yumi_base_link/gripper_l_controller");
+                if (t)
+                    target = t.gameObject;
+            }
         }
 
         if (target == null)
