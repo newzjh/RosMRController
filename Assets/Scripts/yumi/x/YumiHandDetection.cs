@@ -1,11 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using Microsoft.MixedReality.OpenXR;
 using UnityEngine;
-using Microsoft.MixedReality.Toolkit;
+using MixedReality.Toolkit;
 using MixedReality.Toolkit.Input;
 using UnityEngine.InputSystem;
-
 
 public class YumiHandDetection : MonoBehaviour
 {

@@ -10,7 +10,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
-using Microsoft.MixedReality.Toolkit;
+using MixedReality.Toolkit;
 using UnityEngine;
 using UnityEngine.UI;
 

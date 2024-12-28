@@ -2,7 +2,7 @@
 // Licensed under the MIT License.
 
 using UnityEngine;
-using Assimp;
+
 
 #if MIXED_REALITY_OPENXR
 using Microsoft.MixedReality.OpenXR;

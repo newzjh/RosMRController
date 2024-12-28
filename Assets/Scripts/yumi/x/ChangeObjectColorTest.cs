@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Robotics;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.Rendering;
 
 public class ChangeObjectColorTest : MonoBehaviour
 {
@@ -20,13 +20,13 @@ public class ChangeObjectColorTest : MonoBehaviour
     {
     }
     public void change()
-        {
+    {
         // change the color of the selected GameObject
         GameObject jointObject = GameObject.Find("panda_link0").gameObject;
         Renderer renderer = jointObject.GetComponent<Renderer>();
         if (renderer != null)
         {
-            MaterialExtensions.SetMaterialColor(renderer.material, highLightColor);
+            renderer.material.SetColor((GraphicsSettings.renderPipelineAsset != null) ? "_BaseColor" : "_Color", highLightColor);
             print("clicked!");
         }
         else
