@@ -1,7 +1,9 @@
 ﻿// Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
+#if UNITY_XR_QR
 using Microsoft.MixedReality.QR;
+#endif
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -36,12 +38,15 @@ namespace Microsoft.MixedReality.SampleQRCodes
 
         public bool IsSupported { get; private set; }
 
+#if UNITY_XR_QR
+
         public event EventHandler<bool> QRCodesTrackingStateChanged;
         public event EventHandler<QRCodeEventArgs<Microsoft.MixedReality.QR.QRCode>> QRCodeAdded;
         public event EventHandler<QRCodeEventArgs<Microsoft.MixedReality.QR.QRCode>> QRCodeUpdated;
         public event EventHandler<QRCodeEventArgs<Microsoft.MixedReality.QR.QRCode>> QRCodeRemoved;
 
         private System.Collections.Generic.SortedDictionary<System.Guid, Microsoft.MixedReality.QR.QRCode> qrCodesList = new SortedDictionary<System.Guid, Microsoft.MixedReality.QR.QRCode>();
+
 
         private QRCodeWatcher qrTracker;
         private bool capabilityInitialized = false;
@@ -223,5 +228,7 @@ namespace Microsoft.MixedReality.SampleQRCodes
                 }
             }
         }
+
+#endif
     }
 }

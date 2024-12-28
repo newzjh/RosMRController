@@ -22,17 +22,21 @@ namespace Microsoft.MixedReality.SampleQRCodes
                 Removed
             };
             public Type type;
+#if UNITY_XR_QR
             public Microsoft.MixedReality.QR.QRCode qrCode;
+
 
             public ActionData(Type type, Microsoft.MixedReality.QR.QRCode qRCode) : this()
             {
                 this.type = type;
                 qrCode = qRCode;
             }
+#endif
         }
 
         private Queue<ActionData> pendingActions = new Queue<ActionData>();
 
+#if UNITY_XR_QR
         // Use this for initialization
         void Start()
         {
@@ -48,6 +52,7 @@ namespace Microsoft.MixedReality.SampleQRCodes
                 throw new System.Exception("Prefab not assigned");
             }
         }
+
         private void Instance_QRCodesTrackingStateChanged(object sender, bool status)
         {
             if (!status)
@@ -137,5 +142,6 @@ namespace Microsoft.MixedReality.SampleQRCodes
         {
             HandleEvents();
         }
+#endif
     }
 }

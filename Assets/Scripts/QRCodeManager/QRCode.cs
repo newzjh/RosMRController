@@ -9,7 +9,9 @@ namespace Microsoft.MixedReality.SampleQRCodes
     [RequireComponent(typeof(SpatialGraphNodeTracker))]
     public class QRCode : MonoBehaviour
     {
+#if UNITY_XR_QR
         public Microsoft.MixedReality.QR.QRCode qrCode;
+
         private GameObject qrCodeCube;
 
         public float PhysicalSize { get; private set; }
@@ -106,6 +108,7 @@ namespace Microsoft.MixedReality.SampleQRCodes
                 LaunchUri();
             }
         }
+#endif
 
         void LaunchUri()
         {

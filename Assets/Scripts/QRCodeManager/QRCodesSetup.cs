@@ -20,7 +20,9 @@ namespace Microsoft.MixedReality.SampleQRCodes
             qrCodesManager = QRCodesManager.Instance;
             if (AutoStartQRTracking)
             {
+#if UNITY_XR_QR
                 qrCodesManager.StartQRTracking();
+#endif
             }
             if (VisualizeQRCodes)
             {
