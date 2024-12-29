@@ -13,7 +13,7 @@ public class MotionMenuBase : MonoBehaviour
     private Transform tJointOperationMenu;
 
     // Start is called before the first frame update
-    protected void Start()
+    protected void Awake()
     {
         tGlobalMenu = transform.Find("Global Menu");
         tEEMenu = transform.Find("EE Menu");
@@ -39,7 +39,7 @@ public class MotionMenuBase : MonoBehaviour
             }
         }
 
-        Motion_ARControlBase motion = Motion_ARControlBase.Instance;
+        Motion_ARControlBase motion = GameObject.FindFirstObjectByType<Motion_ARControlBase>(FindObjectsInactive.Include);
 
         if (tJointOperationMenu && motion)
         {
