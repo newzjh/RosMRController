@@ -89,8 +89,8 @@ public class YumiVisualController : MonoBehaviour
         linkVisualsL[8] = transform.Find(routeToLinkL + "/gripper_l_finger_l" + routeToVisual).gameObject;
         linkVisualsL[9] = transform.Find(routeToLinkL + "/gripper_l_finger_r" + routeToVisual).gameObject;
 
-
-        armVisible = visibilityToggleButton.GetComponent<PressableButton>().isSelected;
+        if (visibilityToggleButton)
+            armVisible = visibilityToggleButton.GetComponent<PressableButton>().isSelected;
     }
 
     // Update is called once per frame

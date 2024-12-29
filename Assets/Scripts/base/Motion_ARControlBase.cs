@@ -25,7 +25,7 @@ using Unity.Robotics.ROSTCPConnector.ROSGeometry;
 //using static UnityEditor.PlayerSettings;
 using UnityEngine.XR.ARFoundation;
 
-public class YumiMotion_ARControlBase : MonoBehaviour
+public class Motion_ARControlBase : MonoBehaviour
 {
     public float speed = 0.01f;
     public float rotation_speed = 1;
@@ -52,7 +52,7 @@ public class YumiMotion_ARControlBase : MonoBehaviour
     protected GameObject baseLink;
 
     // ------------------------------------------------------------------------------
-    public static YumiMotion_ARControlBase Instance;
+    public static Motion_ARControlBase Instance;
     public void Awake()
     {
         Instance = this;

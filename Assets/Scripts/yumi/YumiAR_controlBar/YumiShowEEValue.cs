@@ -54,9 +54,9 @@ public class YumiShowEEValue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (YumiMotion_ARControlBase.Instance)
+        if (Motion_ARControlBase.Instance)
         {
-            target = YumiMotion_ARControlBase.Instance.gameObject;
+            target = Motion_ARControlBase.Instance.gameObject;
         }
         else
         {

@@ -25,7 +25,7 @@ using Unity.Robotics.ROSTCPConnector.ROSGeometry;
 //using static UnityEditor.PlayerSettings;
 using UnityEngine.XR.ARFoundation;
 
-public class YumiMotion_ARControl : YumiMotion_ARControlBase
+public class YumiMotion_ARControl : Motion_ARControlBase
 {
  
 

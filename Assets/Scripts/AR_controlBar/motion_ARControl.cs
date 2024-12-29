@@ -11,7 +11,7 @@ using MixedReality.Toolkit.SpatialManipulation;
 // using Unity.Robotics.ROSTCPConnector;
 // using Unity.Robotics.ROSTCPConnector.ROSGeometry;
 
-public class motion_ARControl: YumiMotion_ARControlBase
+public class motion_ARControl: Motion_ARControlBase
 {
 
 
