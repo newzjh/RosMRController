@@ -174,6 +174,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6193734b4c8444bcfdf4e9953fe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &20066220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,6 +190,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &20066221
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -264,6 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &20066223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1053,6 +1064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &52924503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,6 +1545,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2739b11a8980aa48b52271bc429c745, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &67536240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1545,6 +1561,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &67536241
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -1623,6 +1645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!1 &68877806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,6 +1691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &71360421
 GameObject:
   m_ObjectHideFlags: 0
@@ -1792,6 +1816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &75825003
 GameObject:
   m_ObjectHideFlags: 0
@@ -2574,6 +2599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &85240149
 GameObject:
   m_ObjectHideFlags: 0
@@ -3759,6 +3785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainText: {fileID: 1916726256}
+  markerManager: {fileID: 0}
 --- !u!1 &113600083
 GameObject:
   m_ObjectHideFlags: 0
@@ -4059,6 +4086,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6193734b4c8444bcfdf4e9953fe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &129051947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4071,6 +4102,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &129051948
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -4149,6 +4186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &129051950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4516,6 +4554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1001 &141124396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4954,6 +4993,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 074632cab556f5b408839af8574308df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &150506288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4966,6 +5009,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &150506289
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -5044,6 +5093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &150506291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5514,6 +5564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5526,6 +5577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5538,6 +5590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5550,6 +5603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5562,6 +5616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5574,6 +5629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5586,6 +5642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5598,6 +5655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5610,6 +5668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5622,6 +5681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5634,6 +5694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5646,6 +5707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5658,6 +5720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5670,6 +5733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5682,6 +5746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5694,6 +5759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5706,6 +5772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5718,6 +5785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5730,6 +5798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5742,6 +5811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5754,6 +5824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5766,6 +5837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76add797bdb1d8c4b8276633f6e67167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PluginText: 
 --- !u!114 &165126124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8355,6 +8427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1001 &248186537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9819,6 +9892,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2739b11a8980aa48b52271bc429c745, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &271399315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9831,6 +9908,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &271399316
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -9909,6 +9992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!1 &285564345
 GameObject:
   m_ObjectHideFlags: 8
@@ -10254,6 +10338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &320648872
 GameObject:
   m_ObjectHideFlags: 0
@@ -10299,6 +10384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1001 &321020358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10758,6 +10844,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6193734b4c8444bcfdf4e9953fe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &338266332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10770,6 +10860,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &338266333
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -10848,6 +10944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &338266335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13787,6 +13884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &417709112
 GameObject:
   m_ObjectHideFlags: 0
@@ -14081,6 +14179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &432377874
 GameObject:
   m_ObjectHideFlags: 8
@@ -14345,6 +14444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &446045947
 GameObject:
   m_ObjectHideFlags: 8
@@ -14435,6 +14535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &453608897
 GameObject:
   m_ObjectHideFlags: 0
@@ -15334,6 +15435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &481020700
 GameObject:
   m_ObjectHideFlags: 8
@@ -17519,6 +17621,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6193734b4c8444bcfdf4e9953fe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &538988203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17531,6 +17637,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &538988204
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -17609,6 +17721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &538988206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17941,6 +18054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1001 &560230877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18084,6 +18198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &564995692
 GameObject:
   m_ObjectHideFlags: 0
@@ -18252,6 +18367,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6193734b4c8444bcfdf4e9953fe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &573352786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18264,6 +18383,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &573352787
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -18342,6 +18467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &573352789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18571,6 +18697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &583420881
 GameObject:
   m_ObjectHideFlags: 0
@@ -19473,6 +19600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &623792416
 GameObject:
   m_ObjectHideFlags: 0
@@ -19661,6 +19789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &626119565
 GameObject:
   m_ObjectHideFlags: 0
@@ -19712,6 +19841,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6193734b4c8444bcfdf4e9953fe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &626119568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19724,6 +19857,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &626119569
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -19802,6 +19941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &626119571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20364,6 +20504,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2739b11a8980aa48b52271bc429c745, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &638726173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20376,6 +20520,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &638726174
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -20454,6 +20604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!43 &642500353
 Mesh:
   m_ObjectHideFlags: 0
@@ -20829,6 +20980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!4 &654921949 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3d9aa482e7064794cb1e216796cdcdd1, type: 3}
@@ -22205,6 +22357,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 074632cab556f5b408839af8574308df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &700244400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22217,6 +22373,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &700244401
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -22295,6 +22457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &700244403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23063,6 +23226,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6193734b4c8444bcfdf4e9953fe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &717133437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23075,6 +23242,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &717133438
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -23153,6 +23326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &717133440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28044,6 +28218,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6193734b4c8444bcfdf4e9953fe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &900401137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28056,6 +28234,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &900401138
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -28134,6 +28318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &900401140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30145,6 +30330,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 074632cab556f5b408839af8574308df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &953540877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30157,6 +30346,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &953540878
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -30235,6 +30430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!1 &953657857
 GameObject:
   m_ObjectHideFlags: 0
@@ -30902,6 +31098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &982235319
 GameObject:
   m_ObjectHideFlags: 0
@@ -31401,6 +31598,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 074632cab556f5b408839af8574308df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!171741748 &1008628097
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -31479,6 +31680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &1008628100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31902,6 +32104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1001 &1050884020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34184,6 +34387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1088325998
 GameObject:
   m_ObjectHideFlags: 0
@@ -34684,6 +34888,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6193734b4c8444bcfdf4e9953fe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &1099983495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34696,6 +34904,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &1099983496
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -34774,6 +34988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &1099983498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36165,6 +36380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1169205192
 GameObject:
   m_ObjectHideFlags: 0
@@ -36507,6 +36723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!1 &1175965161
 GameObject:
   m_ObjectHideFlags: 0
@@ -36951,6 +37168,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 074632cab556f5b408839af8574308df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &1182559865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36963,6 +37184,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &1182559866
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -37041,6 +37268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &1182559868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37331,6 +37559,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2739b11a8980aa48b52271bc429c745, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &1185606232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37343,6 +37575,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &1185606233
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -37421,6 +37659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!1 &1185718403
 GameObject:
   m_ObjectHideFlags: 0
@@ -38288,6 +38527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!224 &1240275035 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8376646494505211229, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
@@ -39240,6 +39480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1251524346
 GameObject:
   m_ObjectHideFlags: 0
@@ -39285,6 +39526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1253507825
 GameObject:
   m_ObjectHideFlags: 0
@@ -40994,6 +41236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1001 &1285652992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43070,6 +43313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1348205925
 GameObject:
   m_ObjectHideFlags: 0
@@ -43837,6 +44081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1370918206
 GameObject:
   m_ObjectHideFlags: 0
@@ -44476,6 +44721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1384357338
 GameObject:
   m_ObjectHideFlags: 0
@@ -44736,6 +44982,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6193734b4c8444bcfdf4e9953fe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &1386563278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44748,6 +44998,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &1386563279
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -44826,6 +45082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &1386563281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45060,6 +45317,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 074632cab556f5b408839af8574308df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &1388423431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45072,6 +45333,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &1388423432
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -45150,6 +45417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!96 &1388423437
 TrailRenderer:
   serializedVersion: 3
@@ -45629,6 +45897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1391880304
 GameObject:
   m_ObjectHideFlags: 0
@@ -45674,6 +45943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1393539053
 GameObject:
   m_ObjectHideFlags: 0
@@ -46217,6 +46487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1001 &1417637996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48121,6 +48392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1001 &1495231009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50174,6 +50446,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2739b11a8980aa48b52271bc429c745, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &1553817185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50186,6 +50462,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &1553817186
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -50264,6 +50546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!1 &1556237738
 GameObject:
   m_ObjectHideFlags: 0
@@ -50309,6 +50592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1556266812
 GameObject:
   m_ObjectHideFlags: 0
@@ -50360,6 +50644,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6193734b4c8444bcfdf4e9953fe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &1556266815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50372,6 +50660,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &1556266816
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -50450,6 +50744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &1556266818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51490,6 +51785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1608895253
 GameObject:
   m_ObjectHideFlags: 0
@@ -54063,6 +54359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1676304639
 GameObject:
   m_ObjectHideFlags: 0
@@ -55686,6 +55983,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6193734b4c8444bcfdf4e9953fe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &1697536739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55698,6 +55999,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &1697536740
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -55776,6 +56083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &1697536742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56152,6 +56460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!224 &1713393119 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8376646494505211229, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
@@ -57460,6 +57769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1001 &1766746953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57653,6 +57963,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2739b11a8980aa48b52271bc429c745, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &1768984452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57665,6 +57979,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &1768984453
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -57743,6 +58063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!1001 &1772378208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60009,6 +60330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1829215289
 GameObject:
   m_ObjectHideFlags: 0
@@ -60188,6 +60510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1832287466
 GameObject:
   m_ObjectHideFlags: 0
@@ -60604,6 +60927,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2739b11a8980aa48b52271bc429c745, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &1836866779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60616,6 +60943,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &1836866780
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -60694,6 +61027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!1 &1838810212
 GameObject:
   m_ObjectHideFlags: 0
@@ -61130,6 +61464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1857715702
 GameObject:
   m_ObjectHideFlags: 0
@@ -62919,6 +63254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1892729931
 GameObject:
   m_ObjectHideFlags: 0
@@ -63195,6 +63531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1911873498
 GameObject:
   m_ObjectHideFlags: 0
@@ -63410,6 +63747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1914941989
 GameObject:
   m_ObjectHideFlags: 0
@@ -64147,11 +64485,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8376646494505211226, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
       propertyPath: m_LastSelectExited.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8376646494505211226, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
       propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8376646494505211226, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
       propertyPath: isGrabSelected.onEntered.m_PersistentCalls.m_Calls.Array.size
@@ -65350,6 +65688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &1965908957
 GameObject:
   m_ObjectHideFlags: 0
@@ -65434,6 +65773,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6193734b4c8444bcfdf4e9953fe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &1966310124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65446,6 +65789,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &1966310125
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -65524,6 +65873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &1966310127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66968,6 +67318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &2018028691
 GameObject:
   m_ObjectHideFlags: 0
@@ -67013,6 +67364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &2018726071
 GameObject:
   m_ObjectHideFlags: 0
@@ -67058,6 +67410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1001 &2019557457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68421,6 +68774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &2066375891
 GameObject:
   m_ObjectHideFlags: 0
@@ -68472,6 +68826,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6193734b4c8444bcfdf4e9953fe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &2066375894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68484,6 +68842,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &2066375895
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -68562,6 +68926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!114 &2066375897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68626,6 +68991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &2077023038
 GameObject:
   m_ObjectHideFlags: 0
@@ -68671,6 +69037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1001 &2078596540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69259,6 +69626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &2099025768
 GameObject:
   m_ObjectHideFlags: 0
@@ -69973,6 +70341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geometryType: 0
 --- !u!1 &2117556005
 GameObject:
   m_ObjectHideFlags: 0
@@ -70141,6 +70510,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2739b11a8980aa48b52271bc429c745, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 0
+  jointName: 
+  EffortLimit: 1000
+  VelocityLimit: 1000
 --- !u!114 &2120589173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70153,6 +70526,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631001c063f69d4495bca90731abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayInertiaGizmo: 0
+  useUrdfData: 0
+  centerOfMass: {x: 0, y: 0, z: 0}
+  inertiaTensor: {x: 0, y: 0, z: 0}
+  inertiaTensorRotation: {x: 0, y: 0, z: 0, w: 0}
+  inertialAxisRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!171741748 &2120589174
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -70231,6 +70610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBaseLink: 0
 --- !u!1001 &2121891606
 PrefabInstance:
   m_ObjectHideFlags: 0
